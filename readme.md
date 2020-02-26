@@ -1,3 +1,3 @@
 Add 
-- CraftTweaker2
-- FTB Quest
+- Variegated (For cursed earth)
+- In Control!

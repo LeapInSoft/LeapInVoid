@@ -1,0 +1,16 @@
+{
+	"blacklistAllUndefinedDimensions": true,
+	"activationDimensionIDBlacklist": [],
+	"defaultDimensionID": 0,
+	"entitySpawns": {
+		"0": {
+			"rate": 200,
+			"entities": {
+				"minecraft:chicken": {
+					"nbt": "{}",
+					"weight": 100.0
+				}
+			}
+		}
+	}
+}

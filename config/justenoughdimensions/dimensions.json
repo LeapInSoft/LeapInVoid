@@ -1,0 +1,57 @@
+{
+    "dimensions": [
+        {
+            "dim": 0,
+            "override": true,
+            "dimensiontype": {
+                "id": 0,
+                "name": "Overworld",
+                "keeploaded": true,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "spawn_structure": {
+                "name": "hr_normal.nbt",
+                "centered": true,
+                "offset": [-1, -1, 0]
+            },
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;minecraft:air;1",
+                "SpawnX": 256,
+                "SpawnZ": 256,
+                "GameRules": {
+                    "spawnRadius": "0"
+                }
+            }
+        },
+        {
+            "dim": -2,
+            "dimensiontype": {
+                "id": -2,
+                "name": "BoP Nether",
+                "suffix": "_dimm2",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderHell",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "BIOMESOP"
+            }
+        },
+        {
+            "dim": 1,
+            "dimensiontype": {
+                "id": 1,
+                "name": "BoP dimension",
+                "suffix": "_dim1",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED",
+                "require_exact_match": true
+            },
+            "worldinfo_onetime": {
+                "generatorName": "BIOMESOP"
+            }
+        }
+    ]
+}
